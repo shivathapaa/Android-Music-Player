@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#111111"
+    android:layout_marginTop="2dp"
+    android:id="@+id/audio_item">
+
+    <ImageView
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:id="@+id/music_img"
+        android:src="@drawable/musicicon"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/music_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_toStartOf="@+id/menuMore"
+        android:layout_toEndOf="@+id/music_img"
+        android:singleLine="true"
+        android:text="File Name"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/artis_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10.5dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/music_file_name"
+        android:layout_toStartOf="@+id/alb_duration"
+        android:layout_toEndOf="@+id/music_img"
+        android:text="Artist Name"
+        android:singleLine="true"
+        android:textColor="#837B7B"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:id="@+id/alb_duration"
+        android:layout_below="@+id/music_file_name"
+        android:layout_toStartOf="@+id/menuMore"
+        android:text="leng."
+        android:textColor="#837B7B"
+        android:textSize="11sp" />
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/menuMore"
+        app:srcCompat="@drawable/ic_baseline_more"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"/>
+
+</RelativeLayout>

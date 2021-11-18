@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#131313"
+    class=".NowPlayingFragmentBottom"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_bottom_player"
+        android:background="@android:color/black"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:src="@drawable/musicicon"
+            android:id="@+id/bottom_album_art"
+            android:scaleType="centerCrop"
+            android:contentDescription="prev" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/skip_next_bottom"
+            android:src="@drawable/ic_skip_next"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="next" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/skip_prev_bottom"
+            android:src="@drawable/ic_skip_previous"
+            android:layout_toStartOf="@id/play_pause_miniPlayer"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="previous" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play"
+            android:layout_toStartOf="@id/skip_next_bottom"
+            android:layout_marginEnd="5dp"
+            app:fabSize="mini"
+            android:layout_centerVertical="true"
+            android:id="@+id/play_pause_miniPlayer"
+            app:backgroundTint="#FFFFFF"
+            android:outlineAmbientShadowColor="@android:color/white"
+            android:outlineSpotShadowColor="@android:color/white"
+            android:contentDescription="Playpause" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/song_name_miniPlayer"
+            android:text=""
+            android:textColor="@color/white"
+            android:layout_marginTop="8.5dp"
+            android:layout_marginStart="7dp"
+            android:layout_toEndOf="@id/bottom_album_art"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:layout_toStartOf="@+id/skip_prev_bottom"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/song_artist_miniPlayer"
+            android:text=""
+            android:textColor="@color/white"
+            android:layout_marginTop="0.8dp"
+            android:layout_marginStart="9.2dp"
+            android:layout_toEndOf="@id/bottom_album_art"
+            android:layout_below="@+id/song_name_miniPlayer"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:layout_toStartOf="@+id/skip_prev_bottom"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

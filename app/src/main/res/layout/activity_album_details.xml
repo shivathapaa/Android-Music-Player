@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AlbumDetails">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/albumPhoto"
+        android:src="@drawable/musicicon"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gradient"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/gredient_bg"
+        android:fadingEdge="horizontal"/>
+    <TextView
+        android:id="@+id/alb_name"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="album"
+        android:textColor="#EDE8E8"
+        android:layout_below="@+id/albumPhoto"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/art_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#736D6D"
+        android:text="artist"
+        android:layout_below="@+id/alb_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/art_name"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

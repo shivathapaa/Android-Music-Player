@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#111111"
+    android:layout_marginTop="2dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:id="@+id/audio_item">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/music_img"
+        app:srcCompat="@drawable/musicicon"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/music_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:singleLine="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9sp"
+        android:layout_toStartOf="@+id/menuMore"
+        android:layout_toEndOf="@+id/music_img"
+        android:text="File Name"
+        android:textColor="#F1EAEA"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/music_artist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/music_file_name"
+        android:singleLine="true"
+        android:layout_marginStart="11.2dp"
+        android:layout_marginTop="3dp"
+        android:layout_toStartOf="@+id/duration"
+        android:layout_toEndOf="@+id/music_img"
+        android:text="Artist Name"
+        android:textColor="#938B8B"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/music_file_name"
+        android:singleLine="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_toStartOf="@+id/menuMore"
+        android:text="duration"
+        android:textColor="#938B8B"
+        android:textSize="11sp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/menuMore"
+        app:srcCompat="@drawable/ic_baseline_more"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp"/>
+
+</RelativeLayout>
