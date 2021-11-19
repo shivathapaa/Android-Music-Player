@@ -20,5 +20,9 @@ This project is created using:
 ![Album Details 1](https://user-images.githubusercontent.com/89457854/142572911-3d975fb9-1f4e-4f4a-b577-8483140751d8.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Album Details 2](https://user-images.githubusercontent.com/89457854/142572915-eab2f32f-3021-4799-b519-f20f66b7eb02.png)
 
+
+
+## Project Report
+For more details, you can download project report of this project from  [here](https://docs.google.com/document/d/1-6vXu3Kz_ZuPblgD9Wgjx0M02u5VtV34/edit?usp=sharing&ouid=113121625212245256886&rtpof=true&sd=true "Project Report").
 ### Disclaimer
 All the images artwork shown in the screenshots belongs to the respective artists or recording industry.
