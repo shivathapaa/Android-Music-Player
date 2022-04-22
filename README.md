@@ -23,7 +23,7 @@ This project is created using:
 
 
 ## Project Report
-For more details, you can download project report of this project from  [here](https://drive.google.com/file/d/1jadVg5KGBN2hNWlXEGGgEXoQN3DcBAjk/view?usp=sharing "Project Report").
+For more details, you can download project report of this project from  [here](https://drive.google.com/file/d/1nKGdYl0raQ3HAhRxZqavpxrpO97tBOX8/view?usp=sharing "Project Report").
 
 Development of this project has been discontinued for now.
 
