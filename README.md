@@ -1,14 +1,17 @@
 # Android-Music-Player
-Music player app for android using Java.
+Music player app for Android using Java.
+
+This app supports WAV, FLAC, AAC, MP3, and other music formats. It is an app with a simple responsive user interface with attractive artwork and other metadata accessed for distinctive selection.
+
 <br>
-<br>
-This app supports WAV, FLAC, AAC, MP3 and other music formats. It is a app with simple responsive user interface with attractive artwork and other metadata accessed for distinctive selection.
-<br>
-<br>
+
 ## Technologies
 This project is created using:
 * Java
 * Android Studio
+
+<br>
+
 ## Screenshots
 ![Songs View 1](https://user-images.githubusercontent.com/89457854/142572876-48edf7ea-d32c-4c69-a50f-c1cb1f60ff22.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Songs View 2](https://user-images.githubusercontent.com/89457854/142572888-701ab43e-c3ee-41d0-b231-99eb6e4099fa.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -20,13 +23,36 @@ This project is created using:
 ![Album Details 1](https://user-images.githubusercontent.com/89457854/142572911-3d975fb9-1f4e-4f4a-b577-8483140751d8.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Album Details 2](https://user-images.githubusercontent.com/89457854/142572915-eab2f32f-3021-4799-b519-f20f66b7eb02.png)
 
-
+<br>
 
 ## Project Report
-For more details, you can download project report of this project from  [here](https://drive.google.com/file/d/1AEOGeuhFXcJq4rsQyneWRzaEyVs0OE5T/view?usp=drivesdk "Project Report").
+For more details, you can download the project report of this project from  [here](https://drive.google.com/file/d/1AEOGeuhFXcJq4rsQyneWRzaEyVs0OE5T/view?usp=drivesdk "Project Report").
 
-Development of this project has been discontinued for now.
+<br>
 
+## Image Attributions
 
-### Disclaimer
-All the images artwork shown in the screenshots belongs to the respective artists or recording industry.
+All the images and artwork shown in the screenshots belong to the respective artists or recording industry.
+
+> Kindly note that the album artworks shown are not owned by the project author and are subject to the original terms and conditions defined by their creators. If you intend to use any of these artworks beyond the scope of this project, it is imperative to adhere to the specific terms set by the original creators.
+
+<br>
+
+## License
+
+This project is licensed under the [MIT License](LICENSE), which means you're free to use, modify, and distribute the code for your own purposes. Please see the [LICENSE](LICENSE) file for more details.
+
+<br>
+
+## Project Status
+
+**Important Notice:** This project's development has been discontinued.
+
+I no longer actively maintain or update the application, the repository remains open for reference purposes.
+
+Please feel free to explore the codebase, documentation, and any resources available. You're welcome to fork the project and continue its development independently if you find value in it.
+
+<br>
+
+---
+Thank you for visiting this repository!
